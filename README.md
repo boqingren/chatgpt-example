@@ -8,17 +8,22 @@
 pnpm install
 ```
 
-## 3. 启动开发
+## 3. 开发
 ```bash
-pnpm dev
+SECRET=xxx pnpm dev
 ```
 
-## 4. 打包产物
+## 4. 打包
 ```bash
 pnpm build
 ```
 
-## 5. 相关文档
+## 5. 运行打包后的文件
+```bash
+SECRET=xxx pnpm bootstrap
+```
+
+## 6. 相关文档
 - OpenAI 官网: [https://openai.com](https://openai.com)
 - ChatGPT 游乐场: [https://chat.openai.com/chat](https://chat.openai.com/chat)
 - NodeJS 调用 ChatGPT 的 API 构建应用: [https://platform.openai.com/docs/quickstart/build-your-application](https://platform.openai.com/docs/quickstart/build-your-application)

@@ -48,6 +48,7 @@ pnpm init
 ### 2.2 安装依赖
 ```bash
 # isomorphic-fetch 用户修复 chatgpt 报错提示 `Error: Invalid environment: global fetch not defined`
+# https://github.com/transitive-bullshit/chatgpt-api/issues/297
 pnpm add chatgpt@4.2.0 isomorphic-fetch@3.0.0 await-to-js@3.0.0 \
 && pnpm add cli-color@2.0.3 cross-port-killer@1.4.0 \
 && pnpm add koa@2.14.1 koa-bodyparser@4.3.0 koa2-cors@2.0.6 koa-router@12.0.0 \
